@@ -69,6 +69,10 @@ def check_condition(player_score, computer_score):
     """
     if player_score == computer_score:
         print("It's a draw 🙃")
+    elif player_score == 21:
+        print("You got a Blackjack! You win 😁")
+    elif computer_score == 21:
+        print("Opponent got a Blackjack! You lose 😤")
     elif player_score > 21:
         print("You went over. You lose 😔")
     elif computer_score > 21:
