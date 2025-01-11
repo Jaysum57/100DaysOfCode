@@ -28,16 +28,14 @@ class CarCamshaftPulley:
 
 **camelCase** - first word is not capitalized and every subsequent.
 
-### snake_case
-
-- all the words are lowercased and every words are separated by an underscore
+**snake_case** - all the words are lowercased and every words are separated by an underscore
 
 ### Constructor
 
 - allows us to specify what should happen when our object is being constructed
 - also known as initializing an object
 
-#### How to make a Constructor
+### How to make a Constructor
 
 ```python
 class Car:
@@ -78,7 +76,7 @@ Function
 
 - is just a block of reusable code that accepts arguments.
 
-#### Create a method
+### Create a method
 
 ```python
 clase Car:
