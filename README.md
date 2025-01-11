@@ -56,7 +56,7 @@ Here are some of the exciting projects you will find in this repository:
 ## 💻 How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/jaysumg57/100-days-of-code.git
+   git clone https://github.com/jaysum57/100-days-of-code.git
    ```
 2. Navigate to the folder of the desired day/project.
 3. Run the Python script or open the project files as instructed in the folder's README.
