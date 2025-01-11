@@ -60,6 +60,8 @@ def get_coins():
 
 def successful_transaction(user_money, order_cost):
     """returns the order cost and calculate the change"""
+    global profit
+    profit += order_cost
     change = user_money - order_cost
     print(f"Here is ${round(change,2)} in change.")
     return order_cost
@@ -89,7 +91,6 @@ def coffee_machine():
     Returns:
     None
     """
-    global profit
     machine_is_running = True
     while machine_is_running:
         order = get_order()
@@ -111,7 +112,7 @@ def coffee_machine():
                 print("Sorry that's not enough money. Money is refunded.")
                 continue
 
-            profit += successful_transaction(user_money, order_cost)
+            successful_transaction(user_money, order_cost)
             make_coffee(order)
 
 # main
