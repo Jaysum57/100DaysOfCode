@@ -1,9 +1,3 @@
-#TODO: asking the question
-#TODO: checking if the answer was correct
-#TODO: checking if we're at the end of the quiz
-
-
-#Q.1: A slug's blood is green. (True/False)?: 
 class QuizBrain:
     def __init__(self, q_list):
         self.question_number = 0
