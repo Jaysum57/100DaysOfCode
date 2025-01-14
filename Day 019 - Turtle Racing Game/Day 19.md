@@ -24,9 +24,9 @@ both `tim` and `tommy` are **instances** of the class Turtle()
 ### State
 
 ```python
-tim.color = green
+tim.color("green")
 
-tommy.color = purple
+tommy.color("purple")
 ```
 
 the state of tim's color is "green" while,
